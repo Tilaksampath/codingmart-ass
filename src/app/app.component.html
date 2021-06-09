@@ -1,0 +1,61 @@
+<html>
+  <head>
+    <style>
+      fieldset
+      {
+        width: 200px;
+        padding: 40px 30px 40px 30px;
+        border: 4px solid black;
+      }
+      div
+      {
+        padding-left: 200px;
+      }
+      body
+      {
+        margin-left: 400px;
+      }
+      .p1
+      {
+        width: 400px;
+        padding-left: 40px;
+        padding-top: 7px;
+        height: 50px;
+        border: 2px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <fieldset>
+      <label>District Name&nbsp;</label>
+      <label><input type="text" name="District Name" color="grey"></label><br>
+      <br>
+      <label>Area(sq.mt)&emsp;</label>
+      <label><input type="number" name="Area"></label><br>
+      <br>
+      <label>population&emsp;&nbsp;</label>
+      <label><input type="text" name="population"></label><br>
+      <br>
+      <div><button input type="submit">save</button></div><br><br>
+      <fieldset class="p1">
+        <h4>Biggest District(Area wise)</h4>
+        <input type="radio" id="city" name="r1" value="populated">
+        <label for="populated">Chennai</label>
+        <input type="radio" id="city" name="r1" value="populated">
+        <label for="populated">Coimbatore</label>
+        <input type="radio" id="city" name="r1" value="populated">
+        <label for="populated">Salem</label>
+      </fieldset>
+      <br>
+      <fieldset class="p1">
+        <h4>Highly populated District</h4>
+        <input type="radio" id="city" name="r2" value="populated">
+        <label for="populated">Chennai</label>
+        <input type="radio" id="city" name="r2" value="populated">
+        <label for="populated">Coimbatore</label>
+        <input type="radio" id="city" name="r2" value="populated">
+        <label for="populated">Salem</label>
+      </fieldset>
+    </fieldset>
+  </body>
+</html>
